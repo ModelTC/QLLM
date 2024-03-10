@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qllm"
+version = "0.1.0"
+description = "An accurate and efficient low-bitwidth PTQ method designed for LLMs (W6A6, W4A8, W4A4)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "datasets>=2.0.0","einops","jsonlines","numexpr",
+    "openai>=0.6.4","omegaconf>=2.2","peft>=0.2.0",
+    "pybind11>=2.6.2","pycountry","pytablewriter",
+    "rouge-score>=0.0.4","sacrebleu==1.5.0",
+    "scikit-learn>=0.24.1","sqlitedict",
+    "tqdm-multiprocess","zstandard",
+    "accelerate", "sentencepiece", "tokenizers>=0.12.1",
+    "torch>=2.0.0", "torchvision", 
+    "transformers==4.37.2", 
+    "texttable",
+    "toml", "attributedict",
+    "protobuf",
+    "numpy",
+    "matplotlib"
+]
+
+[tool.setuptools.packages.find]
+exclude = ["results*", "scripts*", "examples*"]
+
+[tool.wheel]
+exclude = ["results*", "scripts*", "examples*"]
