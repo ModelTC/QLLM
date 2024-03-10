@@ -9,7 +9,7 @@ By [Jing Liu](https://jing-liu.com/), [Ruihao Gong](https://xhplus.github.io/), 
 
 ![qllm](imgs/qllm.png)
 
-we propose QLLM, an accurate and efficient low-bitwidth post-training quantization method designed for LLMs.
+We propose QLLM, an accurate and efficient low-bitwidth post-training quantization method designed for LLMs.
 
 ## 📰 News
 - [10-03-2024]  Release the code!🌟
