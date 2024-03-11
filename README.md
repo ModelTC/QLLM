@@ -47,7 +47,7 @@ Remember to change the path of model `model` and output path `output_dir`.
 ![weight_activation_llama_2](imgs/llama_2_results.png)
 
 ## 📝 Citation
-If you use our `QLLM` useful in your research, please consider to cite the following related papers:
+If you find our `QLLM` useful in your research, please consider to cite the following related papers:
 ```
 @inproceedings{liu2024qllm,
   title = {{QLLM}: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models},
